@@ -66,16 +66,6 @@ var fight = function(enemyName) {
 }; // end of fight function
 
 
-// Game states
-// "WIN" - Player robot has defeated all enemy-robots
-//    * Fight all enemy-robots
-//    * Defest each enemy-robot
-// "LOSE" - Player robot's health is zero or less
-
-
-
-
-
 
 var startGame = function () {
   // reset player stats
@@ -119,7 +109,9 @@ var endGame = function() {
     }
 }
 
+var shop = function() {
+  console.log("entered the shop");
+}
 
-
-// sstart the game when the page loads
+// start the game when the page loads
 startGame();
